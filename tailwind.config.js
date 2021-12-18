@@ -12,7 +12,12 @@ module.exports = {
     //   sans: ['Graphik', 'sans-serif'],
     //   serif: ['Merriweather', 'serif'],
     // },
-    extend: {},
+    extend: {
+      colors: {
+        'meta-blue': '#037dd6',
+      },
+      
+    },
   },
   plugins: [],
   // purge: [
