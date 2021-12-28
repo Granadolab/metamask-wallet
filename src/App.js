@@ -1,8 +1,10 @@
 import { Fragment } from 'react';
 import { Account } from './components/Account';
 import { Cash } from './components/Cash';
+import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Transaction } from './components/Transaction';
+
 
 
 export const App = () => {
@@ -13,6 +15,7 @@ export const App = () => {
                 <Account/>
                 <Cash/>
                 <Transaction/>
+                <Footer/>
            </div>
         </Fragment>
     )

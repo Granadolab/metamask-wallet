@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import { Table } from './common/Table'
 
 export const Activity = () => {
     return (
-        <div>
-            <h4>Activity</h4>
-        </div>
+          <Fragment>
+              <Table/>
+          </Fragment>
     )
 }

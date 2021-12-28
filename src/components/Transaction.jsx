@@ -2,6 +2,8 @@
 import React, { Fragment, useState } from 'react';
 import { Active } from './Active';
 import { Activity } from './Activity';
+import { Token } from './Token';
+
 
 export const Transaction = () => {
 
@@ -29,12 +31,20 @@ export const Transaction = () => {
                     </div>
                </div>
 
-               <div className='flex flex-row hover:bg-gray-300 py-2'>
+               <div>
 
                    {
                        (change === 'active' )
                        ?
-                       <Active/>
+                        <Fragment>
+                            <div className='flex flex-row hover:bg-gray-300'>
+                                <Active/>
+                            </div>
+                            <div className='py-8 flex justify-center'>
+                                <Token/>
+                            </div>
+                        </Fragment>
+                       
                        :
                        <Activity/>
 
