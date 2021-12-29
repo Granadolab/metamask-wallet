@@ -27,6 +27,7 @@ export const Cash = () => {
                     <div className='flex justify-center py-2'>
                         <Button
                         title={'comprar'}
+                        path='/comprar'
                         >
                         <ArrowDownOutline
                                 color={'#ffffff'} 
@@ -37,6 +38,7 @@ export const Cash = () => {
                         </Button>
                         <Button
                         title={'enviar'}
+                        path='/transferir'
                         >            
                             <TrendingUpOutline
                             color={'#ffffff'} 
@@ -47,6 +49,7 @@ export const Cash = () => {
 
                         <Button
                         title={'canjear'}
+                        path='/vender'
                         >
                                 <RepeatOutline
                                 color={'#ffffff'} 
